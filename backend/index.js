@@ -7,7 +7,7 @@ import cookieParser from "cookie-parser";
 import allRoutes from './routes/index.js'
 Env.config();
 const PORT = process.env.PORT || 8000;
-const app = express();
+const app = express();  
 
 // middleware 
 app.use(cors());
